@@ -1,6 +1,6 @@
 import './Banner.css'
 
-function Banner() {
+export const Banner = () => {
     //JSX - como react le a função e transforma no DOM - parece html mas nao eh
     return(
         <header className="banner">
@@ -9,4 +9,3 @@ function Banner() {
     )
 }
 
-export default Banner;
