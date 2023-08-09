@@ -11,7 +11,7 @@ const CampoTexto = (props) => {
         <div className="campo-texto">
             {/*react variavel*/}
             <label>{props.label}</label>
-            <input placeholder={placeholderModificada}/>
+            <input required={props.obrigatorio} placeholder={placeholderModificada}/>
         </div>
     )
 }
