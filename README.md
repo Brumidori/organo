@@ -76,3 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Estilizamos componentes com CSS;
 - Analisamos as dependências do projeto;
 - Analisamos os comandos disponíveis no package.json
+- Aprendemos como passar props para um componente;
+- Renderizamos listas com o .map;
+- Trabalhamos com elementos aninhados usando a prop children;
+- Ouvimos elementos disparados pelo DOM: o onSubmit do nosso form.

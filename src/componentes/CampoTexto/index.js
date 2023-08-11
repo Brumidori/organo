@@ -7,11 +7,15 @@ const CampoTexto = (props) => {
     //javascript variavel
     const placeholderModificada = `${props.placeholder}`
 
+    const aoDigitado = (evento) => {
+        props.aoAlterado(evento.target.value)
+    }
+
     return (
         <div className="campo-texto">
             {/*react variavel*/}
             <label>{props.label}</label>
-            <input required={props.obrigatorio} placeholder={placeholderModificada}/>
+            <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
         </div>
     )
 }
