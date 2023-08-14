@@ -83,3 +83,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Controlar inputs utilizando value e onChange;
 - Gerenciar o estado de um componente, utilizando o useState;
 - Trabalhar com props que são funções.
+- Manipular e transformar arrays de objetos;
+- Filtrar itens de um array;
+- Renderização condicional.
